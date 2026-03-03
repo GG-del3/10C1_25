@@ -23,8 +23,10 @@ import java.util.Arrays;
  */
 public class InfogangScene extends BaseScene{
     public InfogangScene(){
+        //Einfügen des Hintergrunds
         objects.add(new  BackdropObject(Images.get("/assets/background/Infogang.png")));
         
+        //Buttons zum Klicken in andere Gangszenen
         ButtonObject links = new ButtonObject(
                 Images.get("/assets/background/PfeilLinks.png"),
                 () -> {

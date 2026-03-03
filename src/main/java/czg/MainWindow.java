@@ -83,17 +83,9 @@ public class MainWindow extends JFrame implements Runnable {
         // Zeigen
         INSTANCE.setVisible(true);
 
-        InfogangScene mgtest = new InfogangScene();
-        SceneStack.INSTANCE.push(mgtest);
-        /*
-        BiogangScene start = new BiogangScene();
-        SceneStack.INSTANCE.push(start);
-        */
-        /*
-        PhysikgangScene physik = new PhysikgangScene();
-        start.objects.add(ExamplePlayerObject.INSTANCE);
-        INSTANCE.SCENE_STACK.push(physik);
-        */
+        //Startszene
+        FoyerScene foyer = new FoyerScene();
+        SceneStack.INSTANCE.push(foyer);
 
         // BEISPIEL-SZENE (nur zur Referenz, später entfernen!)
         SoundGroup.GLOBAL_SOUNDS.addSound(

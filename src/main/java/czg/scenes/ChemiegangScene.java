@@ -20,7 +20,7 @@ public class ChemiegangScene extends BaseScene{
         ButtonObject rechts = new ButtonObject(
                 Images.get("/assets/background/PfeilRechts.png"),
                 () -> {
-                    zweitesOGScene zweites = new zweitesOGScene();
+                    ZweitesOGScene zweites = new ZweitesOGScene();
                     /*
                     this.objects.remove(ExamplePlayerObject.INSTANCE);
                     zweites.objects.add(ExamplePlayerObject.INSTANCE);
