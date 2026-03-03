@@ -4,17 +4,13 @@
  */
 package czg.objects;
 
-import czg.scenes.BaseScene;
-
-import java.awt.*;
-
-public class Item{
+public class Itemobject {
     // Stelle 0: Name des items, Stelle 1: Level
     static String[][] testitemliste =   {{"Test0", "1"},
                                          {"Test1", "2"},
                                          {"Test2", "3"}};
 
-    public Item(String[][] itemliste) {
+    public Itemobject(String[][] itemliste) {
         this.testitemliste = testitemliste;
     }
 
