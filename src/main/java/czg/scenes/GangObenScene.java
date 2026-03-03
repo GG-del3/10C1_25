@@ -15,8 +15,10 @@ import czg.util.Images;
  */
 public class GangObenScene extends BaseScene{
     public GangObenScene(){
+        //Einfügen des Hintergrunds
         objects.add(new  BackdropObject(Images.get("/assets/background/GangOben.png")));
         
+        //Buttons zum Klicken in andere Gangszenen
         ButtonObject links = new ButtonObject(
                 Images.get("/assets/background/PfeilLinks.png"),
                 () -> {

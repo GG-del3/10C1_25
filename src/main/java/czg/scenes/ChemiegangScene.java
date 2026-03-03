@@ -15,8 +15,10 @@ import czg.util.Images;
  */
 public class ChemiegangScene extends BaseScene{
     public ChemiegangScene(){
+        //Einfügen des Hintergrunds
         objects.add(new BackdropObject(Images.get("/assets/background/Chemiegang.png")));
         
+        //Buttons zum Klicken in andere Gangszenen
         ButtonObject rechts = new ButtonObject(
                 Images.get("/assets/background/PfeilRechts.png"),
                 () -> {
