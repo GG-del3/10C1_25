@@ -4,11 +4,12 @@
  */
 package czg.scenes;
 
-import static czg.MainWindow.HEIGHT;
-import static czg.MainWindow.WIDTH;
 import czg.objects.BackdropObject;
 import czg.objects.ButtonObject;
 import czg.util.Images;
+
+import static czg.MainWindow.HEIGHT;
+import static czg.MainWindow.WIDTH;
 
 /**
  *
@@ -53,11 +54,7 @@ public class FoyerScene extends BaseScene{
         ButtonObject oben = new ButtonObject(
                 Images.get("/assets/background/PfeilOben.png"),
                 () -> {
-<<<<<<< HEAD
                    ErstesOGScene erstes = new ErstesOGScene();
-=======
-                    ErstesOGScene erstes = new ErstesOGScene();
->>>>>>> 3a497c5 (Kommentare)
                     /*
                     this.objects.remove(ExamplePlayerObject.INSTANCE);
                     erstes.objects.add(ExamplePlayerObject.INSTANCE);

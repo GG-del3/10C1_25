@@ -1,5 +1,6 @@
 package czg;
 
+import czg.scenes.FoyerScene;
 import czg.scenes.SceneStack;
 import czg.sound.EndOfFileBehaviour;
 import czg.sound.SoundGroup;
