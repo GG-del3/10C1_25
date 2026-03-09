@@ -156,12 +156,12 @@ public class Input implements KeyListener, MouseListener, MouseMotionListener, F
 
     @Override
     public void keyPressed(KeyEvent keyEvent) {
-        keyStates.put(keyEvent.getKeyCode(), System.nanoTime());
+        keyStates.putIfAbsent(keyEvent.getKeyCode(), System.nanoTime());
     }
 
     @Override
     public void mousePressed(MouseEvent mouseEvent) {
-        mouseStates.put(mouseEvent.getButton(), System.nanoTime());
+        mouseStates.putIfAbsent(mouseEvent.getButton(), System.nanoTime());
     }
 
     @Override
